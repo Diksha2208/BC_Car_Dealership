@@ -1,0 +1,152 @@
+/* General Reset */
+body, ul, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Container */
+.navbar {
+    background: #ffffff;
+    padding: 15px 20px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.logo-primary {
+    color: #29a0e0;
+}
+
+.logo-secondary {
+    color: #666;
+}
+
+.group {
+    font-size: 14px;
+    font-weight: normal;
+    color: #999;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #29a0e0;
+}
+
+/* Right Actions */
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.my-garage {
+    text-decoration: none;
+    font-size: 14px;
+    color: #333;
+}
+
+.search-icon {
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+}
+
+/* Search Section */
+.search-section {
+    background: #005b7f;
+    padding: 30px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.search-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    font-size: 14px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background: #fbb03b;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background: #ffa500;
+}
+
+/* Links Section */
+.links-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.inventory-links h3, .quick-links h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.inventory-links ul, .quick-links ul {
+    list-style: none;
+    color: #fff;
+}
+
+.inventory-links ul li a, .quick-links ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.inventory-links ul li a:hover, .quick-links ul li a:hover {
+    text-decoration: underline;
+}
