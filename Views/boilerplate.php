@@ -13,7 +13,8 @@
 
 
     <main class="container mt-2">
-
+<?php   if (session_status() == PHP_SESSION_NONE){ session_start();} 
+ ?>
     </main>
         
 

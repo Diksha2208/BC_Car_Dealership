@@ -5,6 +5,7 @@ class User {
     var $username = "";
     var $isSignedIn = false;
     var $userType = "";
+    
 
 
     function isSignedIn() {

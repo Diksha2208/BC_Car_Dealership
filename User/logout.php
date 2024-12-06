@@ -9,7 +9,7 @@ $_SESSION = array();
 session_destroy();
 
 // Redirect to the home page
-header("location: index.php");
+header("location: ../Views/index.php");
 
 exit;
 ?>

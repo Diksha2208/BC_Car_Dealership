@@ -1,18 +1,19 @@
 <?php
 require_once "user.php";
-require_once "dbconfig.php";
+require_once "../Model/dbconfig.php";
 
-// Initialize the session
+
 session_start();
 
 // If the current user is already logged in, redirect to the home page
-$user = new User;
+ $user = new User;
 if (isset($_SESSION['user'])) {
   $user = unserialize($_SESSION['user']);
+  
 }
-
+if (empty($_SESSION['cart'])) $_SESSION['cart'] = array();
 if ($user->isSignedIn()) {
-  header("location: index.php");
+  header("location: ../Views/index.php");
   exit;
 }
 

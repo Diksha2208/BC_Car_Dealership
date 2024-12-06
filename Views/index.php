@@ -32,7 +32,7 @@ body {
                     <div class="container mt-5">
                         <h1 class="display-3 fw-bold text-shadow">SEARCH ALL OF OUR CARS</h1>
                         <p class="lead text-shadow">Find your next car and book a test drive online.</p>
-                        <a href="#" class="btn btn-primary btn-lg mt-3">SHOP ALL</a>
+                        <a href="../car/index.php?action=list_categories" class="btn btn-primary btn-lg mt-3">SHOP ALL</a>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@ body {
         </div>
         <div class="col">
             <div class="model">
-            <a href="#">
+            <a href="../car/index.php?action=list_models&category_id=Sedan">
             <img src="../Images/body-car-blue.svg" style="max-width: 120px; height: auto;" alt="Cars Icon" class="img-fluid">
                     <h4>Cars</h4>
 
@@ -85,7 +85,7 @@ body {
         </div>
         <div class="col">
             <div class="model">
-            <a href="#">
+            <a href="../car/index.php?action=list_models&category_id=SUV">
             <img src="../Images/body-suv-blue.svg" style="max-width: 120px; height: auto;" alt="Cars Icon" class="img-fluid">
               
                 <h4>SUVS</h4>
@@ -95,7 +95,7 @@ body {
         </div>
         <div class="col"> 
             <div class="model">
-            <a href="#">
+            <a href="../car/index.php?action=list_models&category_id=Electric">
             <img src="../Images/body-electrified-blue.svg" style="max-width: 120px; height: auto;" alt="Cars Icon" class="img-fluid">
           
                 <h4>Electrified</h4>
@@ -125,52 +125,7 @@ body {
      </div>
     </div>
 </div>
-<div class= "bg-Secondary">
-    <div class="container  my-5">
-    <h3 class="text-center mb-4">Browse By Style</h3>
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-        <!-- Card 1 -->
-        <div class="col">
-            <div class="card h-100">
-                <img src="../Images/filter-family.jpg" class="card-img-top" alt="Family">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Family</h5>
-                    <p class="card-text">Find cars suitable for your family's needs, offering comfort and safety.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Card 2 -->
-        <div class="col">
-            <div class="card h-100">
-                <img src="../Images/filter-earth_friendly.jpg" class="card-img-top" alt="Earth Friendly">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Earth Friendly</h5>
-                    <p class="card-text">Explore eco-friendly and fuel-efficient vehicles to reduce your carbon footprint.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Card 3 -->
-        <div class="col">
-            <div class="card h-100">
-                <img src="../Images/filter-luxury.jpg" class="card-img-top" alt="Luxury">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Luxury</h5>
-                    <p class="card-text">Discover our range of luxury cars with premium features and unmatched style.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Card 4 -->
-        <div class="col">
-            <div class="card h-100">
-                <img src="../Images/filter-value.jpg" class="card-img-top" alt="Value">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Value</h5>
-                    <p class="card-text">Find high-quality cars that provide great value for your money.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 </div>
 </div>
 

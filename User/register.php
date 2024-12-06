@@ -1,6 +1,6 @@
 <?php
 
-require_once "dbconfig.php";
+require_once "../Model/dbconfig.php";
 
 // Initialize variables
 $username = $password = $confirm_password = $name = $email = "";
@@ -98,7 +98,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             // Execute the prepared statement
             if (mysqli_stmt_execute($stmt)) {
-                //header("location: index.php");
+                header("location: login.php");
             } else {
                 echo "Sorry. Something went wrong. Please try again later.";
             }
